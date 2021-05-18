@@ -1,20 +1,25 @@
 lockfileVersion: 5.3
 
-specifiers:
-  autoprefixer: ^10.2.5
-  cssnano: ^5.0.2
-  postcss: ^8.2.15
-  postcss-cli: ^8.3.1
-  postcss-import: ^14.0.2
-  postcss-nesting: ^8.0.1
+importers:
 
-devDependencies:
-  autoprefixer: 10.2.5_postcss@8.2.15
-  cssnano: 5.0.2_postcss@8.2.15
-  postcss: 8.2.15
-  postcss-cli: 8.3.1_postcss@8.2.15
-  postcss-import: 14.0.2_postcss@8.2.15
-  postcss-nesting: 8.0.1_postcss@8.2.15
+  .:
+    specifiers: {}
+
+  packages/nanogram:
+    specifiers:
+      autoprefixer: ^10.2.5
+      cssnano: ^5.0.2
+      postcss: ^8.2.15
+      postcss-cli: ^8.3.1
+      postcss-import: ^14.0.2
+      postcss-nesting: ^8.0.1
+    devDependencies:
+      autoprefixer: 10.2.5_postcss@8.2.15
+      cssnano: 5.0.2_postcss@8.2.15
+      postcss: 8.2.15
+      postcss-cli: 8.3.1_postcss@8.2.15
+      postcss-import: 14.0.2_postcss@8.2.15
+      postcss-nesting: 8.0.1_postcss@8.2.15
 
 packages:
 

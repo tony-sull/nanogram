@@ -1,9 +1,10 @@
 {
-  "name": "nanogram",
+  "name": "@nanogram/nanogram",
   "version": "1.0.0",
   "description": "A minimalist CSS framework.",
+  "main": "dist/nanogram.min.css",
   "scripts": {
-    "build": "pnpm recursive run build"
+    "build": "postcss src/nanogram.css -o dist/nanogram.min.css"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,13 @@
   "bugs": {
     "url": "https://github.com/tony-sull/nanogram/issues"
   },
-  "homepage": "https://github.com/tony-sull/nanogram#readme"
+  "homepage": "https://github.com/tony-sull/nanogram#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
+    "postcss-nesting": "^8.0.1"
+  }
 }
