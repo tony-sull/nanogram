@@ -37,14 +37,14 @@ input[type="submit"] {
   &[disabled] {
     cursor: default;
     opacity: 0.5;
-  }
 
-  &:focus,
-  &:hover {
-    background-color: #9b4dca;
-    background-color: var(--color-primary);
-    border-color: #9b4dca;
-    border-color: var(--color-primary);
+    &:focus,
+    &:hover {
+      background-color: #9b4dca;
+      background-color: var(--color-primary);
+      border-color: #9b4dca;
+      border-color: var(--color-primary);
+    }
   }
 
   &.button-outline {
