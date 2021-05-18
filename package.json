@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A minimalist CSS framework.",
   "scripts": {
-    "build": "pnpm recursive run build"
+    "build": "pnpm recursive run build",
+    "start:docs": "pnpm recursive run start --filter @nanogram/docs"
   },
   "repository": {
     "type": "git",
