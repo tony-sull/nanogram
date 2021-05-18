@@ -1,0 +1,39 @@
+{
+  "name": "nanogram-css",
+  "version": "1.0.0",
+  "description": "A minimalist CSS framework.",
+  "main": "dist/nanogram.min.css",
+  "scripts": {
+    "build": "postcss src/nanogram.css -o dist/nanogram.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-sull/nanogram.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "css3",
+    "flexbox",
+    "front-end",
+    "html",
+    "html5",
+    "responsive",
+    "mobile",
+    "mobile-first",
+    "postcss"
+  ],
+  "author": "Tony Sullivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tony-sull/nanogram/issues"
+  },
+  "homepage": "https://github.com/tony-sull/nanogram#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2"
+  }
+}
