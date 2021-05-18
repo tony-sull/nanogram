@@ -6,6 +6,7 @@ specifiers:
   postcss: ^8.2.15
   postcss-cli: ^8.3.1
   postcss-import: ^14.0.2
+  postcss-nesting: ^8.0.1
 
 devDependencies:
   autoprefixer: 10.2.5_postcss@8.2.15
@@ -13,6 +14,7 @@ devDependencies:
   postcss: 8.2.15
   postcss-cli: 8.3.1_postcss@8.2.15
   postcss-import: 14.0.2_postcss@8.2.15
+  postcss-nesting: 8.0.1_postcss@8.2.15
 
 packages:
 
@@ -973,6 +975,15 @@ packages:
       alphanum-sort: 1.0.2
       postcss: 8.2.15
       postcss-selector-parser: 3.1.2
+    dev: true
+
+  /postcss-nesting/8.0.1_postcss@8.2.15:
+    resolution: {integrity: sha512-cHPNhW5VvRQjszFDxmy16mis9qFQqQLBNw6KVmueLqqE3M182ZAk9+QoxGqbGVryzLVhannw2B5Yhosqq522fA==}
+    engines: {node: 12 - 16}
+    peerDependencies:
+      postcss: ^8
+    dependencies:
+      postcss: 8.2.15
     dev: true
 
   /postcss-normalize-charset/5.0.0_postcss@8.2.15:
