@@ -60,7 +60,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy({
-    "./node_modules/@nanogram/nanogram/dist": "css"
+    "./node_modules/@nanogram/nanogram/dist": "css",
+    "./node_modules/@fontsource/poppins/*.css": "css/poppins"
   });
 
   // Customize Markdown library and settings:

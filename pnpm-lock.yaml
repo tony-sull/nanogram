@@ -11,6 +11,7 @@ importers:
       '@11ty/eleventy-navigation': ^0.1.6
       '@11ty/eleventy-plugin-rss': ^1.1.1
       '@11ty/eleventy-plugin-syntaxhighlight': ^3.1.0
+      '@fontsource/poppins': ^4.3.0
       '@nanogram/nanogram': workspace:^1.0.0
       luxon: ^1.26.0
       markdown-it: ^12.0.4
@@ -20,6 +21,7 @@ importers:
       '@11ty/eleventy-navigation': 0.1.6_@11ty+eleventy@0.12.1
       '@11ty/eleventy-plugin-rss': 1.1.1_@11ty+eleventy@0.12.1
       '@11ty/eleventy-plugin-syntaxhighlight': 3.1.0_@11ty+eleventy@0.12.1
+      '@fontsource/poppins': 4.3.0
       '@nanogram/nanogram': link:../nanogram
       luxon: 1.27.0
       markdown-it: 12.0.6
@@ -151,6 +153,10 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.14.0
       to-fast-properties: 2.0.0
+    dev: true
+
+  /@fontsource/poppins/4.3.0:
+    resolution: {integrity: sha512-SSZOiqlEVH6KjgzOaDIi6r6JhvHK2Cht+XwkALD/KEPzf10QjHVszEamVjr71eSfB8xweabiP8u5/gnGEkIEsw==}
     dev: true
 
   /@nodelib/fs.scandir/2.1.4:
