@@ -1,9 +1,14 @@
-// postcss.config.js
+const nesting = require('postcss-nesting')
+const imports = require('postcss-import')
+const autoprefixer = require('autoprefixer')
+const cssnano = require('cssnano')
+
 module.exports = {
     plugins: [
-      require('postcss-import'),
-      require('autoprefixer'),
-      require('cssnano')({
+      imports(),
+      nesting(),
+      autoprefixer,
+      cssnano({
         preset: 'default',
       }),
     ],
